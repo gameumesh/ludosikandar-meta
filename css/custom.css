@@ -1223,7 +1223,7 @@ button.dwnl {
 }
 
 .header-bottom .bottom ul {
-    justify-content: start !important;
+    justify-content: center !important;
     gap: 20px;
     margin: 0 0 5px;
 }
@@ -1252,6 +1252,22 @@ button.dwnl {
     transition: .25s ease-in-out;
 }
 
+
+.slider-img ul li {
+    width: 50%;
+}
+
+.slider-img ul li img {
+    min-width: 100% !important;
+    height: 280px !important;
+    margin: 0 !important;
+    max-width: 170px !important;
+    width: 160px;
+}
+
+.slider-img ul {
+    justify-content: space-between !important;
+}
 
 
 
